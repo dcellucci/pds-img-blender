@@ -146,7 +146,7 @@ class ImportIMGData(Operator, ImportHelper):
 
 # Only needed if you want to add into a dynamic menu.
 def menu_func_import(self, context):
-    self.layout.operator(ImportIMGData.bl_idname, text="HIRISE .IMG")
+    self.layout.operator(ImportIMGData.bl_idname, text="PDS .IMG")
 
 
 # Register and add to the "file selector" menu (required to use F3 search "Text Import Operator" for quick access).
