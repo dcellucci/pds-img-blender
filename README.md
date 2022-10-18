@@ -2,6 +2,14 @@
 
 Source code for the HIRISE Blender add-on.
 
+## About HIRISE
+[HIRISE](https://www.uahirise.org/) (High Resolution Imaging Science Experiment) is the most powerful camera ever sent to another planet, one of six instruments onboard the Mars Reconnaissance Orbiter. There are several data products derived from the instrument, the one we want to use is the "Digital Terrain Model" or DTM.
+
+> HiRISE DTMs are made from two images of the same area on the ground, taken from different look angles. Creating a DTM is complicated and involves sophisticated software and a lot of time, both computing time and human operator time.  The great advantage of a HiRISE DTM is the high resolution of the source images. As a general guide, terrain can be derived at a post spacing about 4 times the pixel scale of the input images. HiRISE images are usually 0.25 - 0.5 m/pixel, so the post spacing is 1-2 m with vertical precision in the tens of centimeters.  
+[source](https://www.uahirise.org/dtm/about.php)
+
+This plugin lets you directly import the DTM files, saved in the IMG format. It contains all libraries as direct imports, simplifying the install process, and provides a handy file menu for easy access.
+
 ## Installation
 Download the .zip from the [releases](https://github.com/dcellucci/hirise-blender/releases/) and install as you would a [typical Blender add-on](https://docs.blender.org/manual/en/latest/editors/preferences/addons.html#installing-add-ons)
 
