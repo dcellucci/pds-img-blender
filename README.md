@@ -10,6 +10,10 @@ Source code for the HIRISE Blender add-on.
 
 This plugin lets you directly import the DTM files, saved in the IMG format. It contains all libraries as direct imports, simplifying the install process, and provides a handy file menu for easy access.
 
+### Other Sources
+
+In theory you can use this addon to import any Planetary Data System (PDS) IMG file. For instance, the PDS IMG files of the Moon can be found [here](https://wms.lroc.asu.edu/lroc/rdr_product_select?filter%5Btext%5D=&filter%5Blat%5D=&filter%5Blon%5D=&filter%5Brad%5D=&filter%5Bwest%5D=&filter%5Beast%5D=&filter%5Bsouth%5D=&filter%5Bnorth%5D=&filter%5Btopographic%5D=true&show_thumbs=1&per_page=10&commit=Search). Results are only guaranteed for the HIRISE data though, for now.
+
 ## Installation
 Download the .zip from the [releases](https://github.com/dcellucci/hirise-blender/releases/) and install as you would a [typical Blender add-on](https://docs.blender.org/manual/en/latest/editors/preferences/addons.html#installing-add-ons)
 
